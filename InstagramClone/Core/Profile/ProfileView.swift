@@ -22,7 +22,7 @@ struct ProfileView: View {
                 VStack(spacing: 10) {
                     //pic and stats
                     HStack {
-                        AvatarView(image: "super-girl-1")
+                        AvatarView(image: "super-girl-1", dimension: 80)
                         
                         Spacer()
                         
