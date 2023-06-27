@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		806573AF2A4AE34000579C4B /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806573AE2A4AE34000579C4B /* CurrentUserProfileView.swift */; };
+		806573B12A4AE7EB00579C4B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806573B02A4AE7EB00579C4B /* Post.swift */; };
+		806573B52A4AF23300579C4B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806573B42A4AF23300579C4B /* PostGridView.swift */; };
+		806573B72A4AF39900579C4B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806573B62A4AF39900579C4B /* ProfileHeaderView.swift */; };
+		807397822A4ABE8C00C2F281 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807397812A4ABE8C00C2F281 /* User.swift */; };
 		8096694C2A459A0700258077 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096694B2A459A0700258077 /* FeedView.swift */; };
 		8096694E2A459A1900258077 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096694D2A459A1900258077 /* FeedCell.swift */; };
 		809669502A45A3AF00258077 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096694F2A45A3AF00258077 /* SearchView.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		806573AE2A4AE34000579C4B /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		806573B02A4AE7EB00579C4B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		806573B42A4AF23300579C4B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		806573B62A4AF39900579C4B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		807397812A4ABE8C00C2F281 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8096694B2A459A0700258077 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8096694D2A459A1900258077 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8096694F2A45A3AF00258077 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -130,6 +140,8 @@
 		80F6671B2A446D8100E5ED4E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				807397812A4ABE8C00C2F281 /* User.swift */,
+				806573B02A4AE7EB00579C4B /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,7 +186,9 @@
 		80F667212A446DFA00E5ED4E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				806573AE2A4AE34000579C4B /* CurrentUserProfileView.swift */,
 				80F667262A44722000E5ED4E /* ProfileView.swift */,
+				806573B62A4AF39900579C4B /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -206,6 +220,7 @@
 				80F6672B2A4488EE00E5ED4E /* AvatarView.swift */,
 				80F667292A447FF200E5ED4E /* UserStatView.swift */,
 				809669552A472BF800258077 /* IGTextModifier.swift */,
+				806573B42A4AF23300579C4B /* PostGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,17 +299,22 @@
 				8096695A2A472F6300258077 /* CreatePasswordView.swift in Sources */,
 				809669582A472D3E00258077 /* CreateUserNameView.swift in Sources */,
 				809669502A45A3AF00258077 /* SearchView.swift in Sources */,
+				807397822A4ABE8C00C2F281 /* User.swift in Sources */,
 				80F667272A44722000E5ED4E /* ProfileView.swift in Sources */,
 				80F6672C2A4488EE00E5ED4E /* AvatarView.swift in Sources */,
+				806573B72A4AF39900579C4B /* ProfileHeaderView.swift in Sources */,
 				80F6670D2A446D1C00E5ED4E /* ContentView.swift in Sources */,
 				80F6670B2A446D1C00E5ED4E /* InstagramCloneApp.swift in Sources */,
 				8096694E2A459A1900258077 /* FeedCell.swift in Sources */,
 				809669562A472BF800258077 /* IGTextModifier.swift in Sources */,
 				8096695C2A47311700258077 /* CompleteSignUpView.swift in Sources */,
+				806573B52A4AF23300579C4B /* PostGridView.swift in Sources */,
 				80F6672A2A447FF200E5ED4E /* UserStatView.swift in Sources */,
 				809669522A45D9B100258077 /* LoginView.swift in Sources */,
 				809669542A45E1C800258077 /* AddEmailView.swift in Sources */,
+				806573B12A4AE7EB00579C4B /* Post.swift in Sources */,
 				80F667252A446F3C00E5ED4E /* MainTabView.swift in Sources */,
+				806573AF2A4AE34000579C4B /* CurrentUserProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +451,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +481,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

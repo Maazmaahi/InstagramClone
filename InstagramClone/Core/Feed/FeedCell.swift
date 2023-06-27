@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct FeedCell: View {
+    let post: Post
     var body: some View {
         VStack {
             // image + username
             HStack {
-                AvatarView(image: "iron-man-1", dimension: 40)
-                
-                Text("Ironman")
-                    .font(.footnote)
-                    .fontWeight(.semibold)
+                if let user = post.user {
+                    AvatarView(image: user.profileImageUrl ?? "", dimension: 40)
+                    
+                    Text(user.username)
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                }
                 
                 Spacer()
             }
@@ -24,7 +27,7 @@ struct FeedCell: View {
             
             // post image
             
-            Image("iron-man-2")
+            Image(post.imageUrl)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 400)
@@ -60,7 +63,7 @@ struct FeedCell: View {
             .foregroundColor(.black)
             
             // likes label
-            Text("124 likes")
+            Text("\(post.likes) likes")
                 .font(.footnote)
                 .fontWeight(.semibold)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -69,8 +72,8 @@ struct FeedCell: View {
             
             // caption label
             HStack {
-                Text("Ironman ").fontWeight(.semibold) +
-                Text("This is some test caption fornow this is some test caption this is some test caption")
+                Text("\(post.user?.username ?? "") ").fontWeight(.semibold) +
+                Text(post.caption)
             }
             .font(.footnote)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -90,6 +93,6 @@ struct FeedCell: View {
 
 struct FeedCell_Previews: PreviewProvider {
     static var previews: some View {
-        FeedCell()
+        FeedCell(post: Post.MOCK_POST[0])
     }
 }
