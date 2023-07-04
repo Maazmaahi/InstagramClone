@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct CurrentUserProfileView: View {
-    
+    let user: User
     var body: some View {
         NavigationStack {
-            ProfileView(user: User.MOCK_USERS[4])
+            ProfileView(user: user)
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
-                            
+                            AuthService.shared.signOut()
                         } label: {
                             Image(systemName: "line.3.horizontal")
                                 .foregroundColor(.black)
@@ -28,6 +28,6 @@ struct CurrentUserProfileView: View {
 
 struct CurrentUserProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        CurrentUserProfileView()
+        CurrentUserProfileView(user: User.MOCK_USERS[4])
     }
 }

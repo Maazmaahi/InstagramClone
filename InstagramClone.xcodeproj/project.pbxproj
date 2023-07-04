@@ -31,6 +31,7 @@
 		809669582A472D3E00258077 /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809669572A472D3E00258077 /* CreateUserNameView.swift */; };
 		8096695A2A472F6300258077 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809669592A472F6300258077 /* CreatePasswordView.swift */; };
 		8096695C2A47311700258077 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096695B2A47311700258077 /* CompleteSignUpView.swift */; };
+		80CD36AF2A53D81E00C4C389 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD36AE2A53D81E00C4C389 /* LoginViewModel.swift */; };
 		80F6670B2A446D1C00E5ED4E /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6670A2A446D1C00E5ED4E /* InstagramCloneApp.swift */; };
 		80F6670D2A446D1C00E5ED4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6670C2A446D1C00E5ED4E /* ContentView.swift */; };
 		80F6670F2A446D1D00E5ED4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F6670E2A446D1D00E5ED4E /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		809669572A472D3E00258077 /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
 		809669592A472F6300258077 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		8096695B2A47311700258077 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		80CD36AE2A53D81E00C4C389 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		80F667072A446D1C00E5ED4E /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F6670A2A446D1C00E5ED4E /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
 		80F6670C2A446D1C00E5ED4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				803A6C562A5309C800AAD34B /* RegistrationViewModel.swift */,
+				80CD36AE2A53D81E00C4C389 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				807397822A4ABE8C00C2F281 /* User.swift in Sources */,
 				80F667272A44722000E5ED4E /* ProfileView.swift in Sources */,
 				80F6672C2A4488EE00E5ED4E /* AvatarView.swift in Sources */,
+				80CD36AF2A53D81E00C4C389 /* LoginViewModel.swift in Sources */,
 				80184E442A52A4F700962868 /* ContentViewModel.swift in Sources */,
 				806573B72A4AF39900579C4B /* ProfileHeaderView.swift in Sources */,
 				80F6670D2A446D1C00E5ED4E /* ContentView.swift in Sources */,
