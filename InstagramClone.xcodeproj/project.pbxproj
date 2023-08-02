@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800A442C2A62C9F400F1492C /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800A442B2A62C9F400F1492C /* ImageUploader.swift */; };
 		8016D7082A55267A00B86288 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016D7072A55267A00B86288 /* UserService.swift */; };
 		8016D70C2A55278B00B86288 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016D70B2A55278B00B86288 /* SearchViewModel.swift */; };
 		8016D70E2A55328B00B86288 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8016D70D2A55328B00B86288 /* EditProfileView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800A442B2A62C9F400F1492C /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		8016D7072A55267A00B86288 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		8016D70B2A55278B00B86288 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		8016D70D2A55328B00B86288 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				8016D7072A55267A00B86288 /* UserService.swift */,
+				800A442B2A62C9F400F1492C /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				8096695A2A472F6300258077 /* CreatePasswordView.swift in Sources */,
 				809669582A472D3E00258077 /* CreateUserNameView.swift in Sources */,
 				809669502A45A3AF00258077 /* SearchView.swift in Sources */,
+				800A442C2A62C9F400F1492C /* ImageUploader.swift in Sources */,
 				807397822A4ABE8C00C2F281 /* User.swift in Sources */,
 				80F667272A44722000E5ED4E /* ProfileView.swift in Sources */,
 				80F6672C2A4488EE00E5ED4E /* AvatarView.swift in Sources */,
